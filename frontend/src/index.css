@@ -1,0 +1,14 @@
+/* Remove all @tailwind directives */
+@import "tailwindcss";
+
+/* Wrap your custom base styles like this */
+body{
+    font-family: "poppins";
+
+}
+*{
+    box-sizing: border-box;
+  
+    
+}
+

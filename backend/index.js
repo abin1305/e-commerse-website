@@ -13,7 +13,7 @@ app.use(express.json());
 
 //database connection
 
-mongoose.connect('mongodb+srv://yabin449_db_user:QSU208Iv96ZJ9r2E@cluster0.xjofaeg.mongodb.net/ecommerse').then(() => {
+mongoose.connect('mongodb_url').then(() => {
     console.log("MongoDB connected successfully.");
 }).catch((err) => {
     console.error("MongoDB connection error:", err);
